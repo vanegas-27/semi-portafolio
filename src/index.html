@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portafolio personal de Davinson vanegas, hecho con solamente con html y css, con la finalidad de dar a conocer los diversos proyectos que llevo a cabo con el transcurso del tiempo.">
+    <meta name="keywords"
+        content="Portafolio, aprendizaje, html-5, css, paginaWebPractica, pagina web, desarrollo, sistemas, programacion">
+    <meta name="author" content="Davinson Andres Vanegas Tabares">
+    <meta name="copyright" content="Davinson Vanegas">
+    <meta name="robost" content="index,follow"> <!--le decimos a los robost que nos ayuden a indexar la pagina.-->
+    <meta http-equiv="cache-control" content="no-cache"> <!--esta nos permite no guardar nada en los servidores proxy o cache del navegador-->
+    <meta http-equiv="expires" content="0"><!--para poner timepo cuanto dura el cache "0"carga servidor simpre "432000" para borrar cada 12 horas-->
+    <title>Portafolio|Dv</title>
+    <link rel="stylesheet" href="../styles/stylesMovile.css">
+    <link rel="stylesheet" href="../styles/stylesTablet.css" media="(min-width: 530px)">
+    <link rel="shortcut icon" href="../assets/icons/computadora.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Handjet:wght@300&family=Inconsolata:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--si el video no solo con la etiqueta video se hace esto 
+    
+    post: simpre agregar preload="auto"-->
+
+    <!-- <video controls preload="auto">
+        <source src="url" type="video">
+    </video> -->
+
+    <!---para cargar una imagen dependiendo de su tamaño--->
+    
+    <!-- <picture >
+        <source media="(min-width: 500px)" srcset="./img/mediana.jpg">
+        <source media="(min-width: 800px)" srcset="./img/grande.jpg">
+    <img src="./img/pequeña.jpg" alt="imagen de movil" loading="lazy"> 
+    </picture> -->
+
+    <!--cargar imagenes avif o webp si el navegador lo permite
+    
+
+    <picture>
+            <source type="image/avif" srcset=".urlFoto.avif">
+            <img src="urlFoto.png" alt="por si no carga la imagen avif" loading="lazy">
+    </picture>
+    
+    -->
+
+
+    <header>
+        <div class="header_container" id="inicio">
+            <img src="../assets/yo.jpg" alt="foto del creador de la pagina 'davidson'"><br>
+            <a href="https://github.com" class="git"></a>
+            <a href="https://www.instagram.com/vanegas27_/?hl=es-la" class="instagram"></a>
+            <a href="https://www.linkedin.com/in/davidson-vanegas-143a29287/" class="linkidind"></a>
+        </div>
+        <div class="header_container_end">
+            <h1>hola, soy davidson! 👋🏽</h1>
+            <p>
+                <span class="DV">Developer junior</span>, apasiondo por el mundo de la tecnologia y la programacion<br>
+                con ganas de aprender cada dia más sobre este maravilloso mundo.
+            </p>
+            <a href="#contactame">contact me</a><br>
+            <img src="../assets/icons/flecha.png" alt="flecha hacia abajo">
+        </div>
+    </header>
+    <main>
+        <section class="section_one">
+
+            <h2>Mis proyectos!</h2>
+            <div class="container_proyects">
+                <div class="tarjet_proyect_1 tarjet_proyect">
+                    <h3>word-rap</h3>
+                    <a href="https://spicy-spice-pyrite.glitch.me" class="word-rap"></a>
+                </div>
+
+                <div class="tarjet_proyect_2 tarjet_proyect">
+                    <h3>Google</h3>
+                    <a href="../../../PLATZI/modeloGoogle/index.html" class="word-rap"></a>
+                </div>
+
+
+                <div class="tarjet_proyect_3 tarjet_proyect">
+                    <h3>VideoGame!</h3>
+                    <a href="../../paginaWebPractica/index.html" class="word-rap"></a>
+                </div>
+
+
+                <div class="tarjet_proyect_4 tarjet_proyect">
+                    <h3>cart charizard</h3>
+                    <a href="../../diseño_wed/card pokemon/index.html" class="word-rap"></a>
+                </div>
+            </div>
+
+
+            <a href="./proyectos.html" class="proyectos">Saber mas...</a>
+        </section>
+        <section class="header_section">
+            <h3>Moticacion y dedicacion en lo que amas...</h3>
+        </section>
+        <section class="section_two_contact" id="contactame">
+            <div class="imagen_personal"></div>
+            <div class="container_contact">
+                <h4>Datos contacto.</h4>
+                <a href="mailto:davinsonvanegas27@gmail.com" class="email"></a>
+                <a href="https://www.linkedin.com/in/davidson-vanegas-143a29287/" class="linkidind_contact"></a>
+                <h3>Enviame un comnetario o inquietud.😁</h3>
+                <form action="" method="get">
+                    <textarea name="comentarios" id="comentarios" placeholder="dejanos un comentario 😊"></textarea>
+                    <button type="submit">enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="header_footer">
+        <div class="container_imagenes">
+            <img src="../assets/icons/html-5.png" alt="logo de html-5">
+            <img src="../assets/icons/css-3.png" alt="logo de css">
+            <img src="../assets/icons/js.png" alt="logo de js">
+            <img src="../assets/icons/nodo-js.png" alt="logo de node">
+            <img src="../assets/icons/git-logo.png" alt="logo de git">
+            <img src="../assets/icons/piton.png" alt="logo de python">
+            <img src="../assets/icons/java.png" alt="logo de java">
+            <img src="../assets/icons/base-de-datos.png" alt="logo de base de datos">
+        </div>
+        &copy; 2023 - Todos los derechos reservados | Dv
+        <a href="#inicio" id="arrow"></a>
+    </footer>
+</body>
+
+</html>

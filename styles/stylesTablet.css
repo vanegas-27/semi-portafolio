@@ -1,0 +1,40 @@
+
+/* body{
+    background-color: aquamarine;
+} */
+
+.header_container{
+    height: 50%;
+}
+
+
+.header_container img{
+    width: 280px;
+    height: 280px;
+    margin-top: 13px;
+}
+
+/* section contacto*/
+.section_two_contact{
+    display: flex;
+}
+
+
+.imagen_personal{
+    width: 19rem;
+    height: 100%;
+    margin-right: 7px;
+    border-radius: 7px;
+    background-image: url(../assets/mia.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_footer{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
